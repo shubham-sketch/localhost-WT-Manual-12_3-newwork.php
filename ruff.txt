@@ -1,0 +1,3 @@
+<input type="radio" name="gender" value="1" <?php echo (isset($gender) && $gender == "1") ? 'checked="checked"' : ''; ?>/> Male
+<input type="radio" name="gender" value="2" <?php echo (isset($gender) && $gender == "2") ? 'checked="checked"' : ''; ?>/> Female
+<input type="radio" name="gender" value="3" <?php echo (isset($gender) && $gender == "3") ? 'checked="checked"' : ''; ?>/> Other
